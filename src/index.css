@@ -534,12 +534,12 @@ button {
   #root {
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
   }
   .app {
     display: block;
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     background-color: transparent;
     box-shadow: none;
 
@@ -551,7 +551,7 @@ button {
     margin: 0;
     border-radius: 0;
     width: 100vw;
-    height: 25vh;
+    height: 25dvh;
     background-size: 100%;
     background-position: 100% 85%;
     position: absolute;

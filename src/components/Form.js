@@ -30,13 +30,13 @@ export function Form({ step, onNextStep, formValues, setFormValues }) {
     const newErrors = {};
 
     if (!formValues.name.trim()) {
-      newErrors.name = "This field is required";
+      newErrors.name = "This field is required.";
     }
 
     if (!formValues.email.trim()) {
       newErrors.email = "This field is required.";
     } else if (!validEmail(formValues.email.trim())) {
-      newErrors.email = "Invalid format for this field";
+      newErrors.email = "Invalid format for this field.";
     }
     if (Object.keys(newErrors).length > 0) {
       setErrors(newErrors);
