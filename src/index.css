@@ -176,7 +176,7 @@ input {
   padding: 1rem;
   border-radius: 9px;
   border: solid 1px var(--color-cool-gray);
-  color: var(--color-cool-gray);
+  color: var(--color-marine-blue);
 }
 
 input:focus {

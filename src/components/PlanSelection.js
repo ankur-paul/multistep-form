@@ -1,6 +1,3 @@
-import { useState } from "react";
-import { Button } from "./App";
-
 export const cardData = [
   {
     name: "arcade",
